@@ -7,3 +7,9 @@ Feature: Test Scenarios for Search functionality
     And Click on search icon
     Then Product results for dress are shown
     And First result contains dress
+
+  Scenario: Search Help returns correct result
+    Given Open Amazon page
+
+
+

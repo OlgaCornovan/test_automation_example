@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 driver = webdriver.Chrome('drivers/chromedriver')
 
 # open the url
-driver.get('https://www.google.com/')
+driver.get('https://www.amazon.com/')
 
 search = driver.find_element(By.NAME, 'q')
 search.clear()
